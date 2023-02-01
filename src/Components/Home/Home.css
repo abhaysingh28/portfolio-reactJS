@@ -1,0 +1,751 @@
+.main {
+  position: relative;
+  display: flex;
+  width: 100%;
+  background-color: rgb(213, 220, 237) !important;
+}
+.profilebottombutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #3c5164;
+  font-family: sans-serif;
+}
+.byLove {
+  margin-top: 1.2%;
+  margin-left: 45%;
+  padding-bottom: 22px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #3c5164;
+  font-family: sans-serif;
+}
+
+.left {
+  margin-top: 2%;
+  padding: 0 30px;
+  width: 35%;
+  padding-bottom: 20px;
+}
+.theme {
+  margin-top: 2%;
+  width: 100%;
+  height: 14vh;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 10px 4px 26px 4px rgba(87, 87, 87, 0.21);
+  -webkit-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  -moz-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+}
+.themeLeft {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.themeLeft h1 {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #3c5164;
+  padding-top: 23px;
+  padding-left: 30px;
+}
+.themeLeft h2 {
+  display: flex;
+  margin-top: 0.5%;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #818080;
+  padding-left: 30px;
+}
+.themeRight {
+  position: relative !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  float: right;
+}
+/* The switch - the box around the slider */
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  --background: #a89cc2;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background);
+  transition: 0.5s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 50%;
+  left: 10%;
+  bottom: 15%;
+  box-shadow: inset 8px -4px 0px 0px #fff000;
+  background: var(--background);
+  transition: 0.5s;
+}
+
+input:checked + .slider {
+  background-color: #e2f59f;
+}
+
+input:checked + .slider:before {
+  transform: translateX(100%);
+  box-shadow: inset 15px -4px 0px 15px #c7a8ec;
+}
+.profile {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 10px 4px 26px 4px rgba(87, 87, 87, 0.21);
+  -webkit-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  -moz-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  margin-top: 6%;
+  padding-bottom: 20px;
+}
+
+.profileTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+.profilePhoto {
+  margin-top: 8%;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  border: 3px solid rgb(119, 105, 141);
+  overflow: hidden;
+}
+
+.profilePhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profileBottom {
+  width: 100%;
+  padding: 10px;
+}
+.profileBottom h1 {
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5vmax;
+  font-weight: 600;
+  color: #3c5164;
+  font-family: sans-serif;
+}
+.profileBottom p {
+  margin-top: 1%;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  font-size: 1vmax;
+  font-weight: 400;
+  color: #818080;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: sans-serif;
+  margin-bottom: 4%;
+}
+.profilebottompara p{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonDownload {
+  padding: 3px;
+  text-decoration: none;
+  background-color: transparent;
+  color: rgb(101, 96, 96);
+  font-family: sans-serif;
+  border: none;
+  font-size: 0.9em;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 1px solid gray;
+}
+.buttonDownload a {
+  text-decoration: none;
+  color: rgb(101, 96, 96);
+}
+/* .buttonDownload:hover {
+  background-color: #37be4c;
+  color: white;
+  text-decoration: none;
+} */
+.aboutME {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 10px 4px 26px 4px rgba(87, 87, 87, 0.21);
+  -webkit-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  -moz-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  margin-top: 6%;
+}
+.aboutMesingle {
+  width: 100%;
+  height: 10vh;
+  padding-top: 20px;
+}
+.aboutleft {
+  padding: 14px;
+  display: flex;
+  width: 50%;
+  float: left;
+}
+.aboutleft i {
+  font-size: 0.8rem;
+  margin-left: 8%;
+  color: grey;
+}
+.aboutleft h6 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: grey;
+  margin-left: 4%;
+}
+.aboutright {
+  width: 50%;
+  display: flex;
+  padding: 14px;
+  justify-content: flex-end;
+}
+.aboutright h6 a {
+  text-decoration: none;
+  color: grey;
+}
+.aboutright h6 {
+  margin-right: 8%;
+  color: grey;
+  font-size: 0.9vmax;
+  /* white-space: nowrap; */
+}
+.TechStack {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 10px 4px 26px 4px rgba(87, 87, 87, 0.21);
+  -webkit-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  -moz-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  margin-top: 6%;
+}
+.topTech {
+  width: 100%;
+  padding-top: 16px;
+}
+.topTech h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: grey;
+  margin-left: 6.1%;
+}
+.bottomTech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 5vh;
+  padding: 15px;
+}
+.skills {
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  background-color: rgb(211, 222, 247);
+}
+.skills h1 {
+  padding: 4px 12px;
+  margin-top: 10%;
+  font-size: 0.9vw;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+.experience {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 10px 4px 26px 4px rgba(87, 87, 87, 0.21);
+  -webkit-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  -moz-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  margin-top: 6%;
+  padding-bottom: 12px;
+}
+.experience h1 {
+  padding-top: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: grey;
+  margin-left: 6.1%;
+}
+.experience1 h1 {
+  padding-top: 15px;
+  font-size: 0.8vmax;
+  font-weight: 600;
+  color: rgb(168, 168, 168);
+  margin-left: 10.1%;
+}
+.experience1 h2 {
+  font-size: 1vmax;
+  font-weight: 600;
+  color: grey;
+  margin-left: 15.1%;
+}
+.experience1 h3 {
+  font-size: 1vmax;
+  font-weight: 600;
+  color: rgb(168, 168, 168);
+  margin-left: 15.1%;
+}
+.education {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 10px 4px 26px 4px rgba(87, 87, 87, 0.21);
+  -webkit-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  -moz-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  margin-top: 6%;
+  padding-bottom: 12px;
+}
+.education h6 {
+  padding-top: 18px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: grey;
+  margin-left: 6.1%;
+  margin-top: 7%;
+}
+.education h1 {
+  padding-top: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: grey;
+  margin-left: 6.1%;
+}
+.github {
+  width: 97%;
+  background-color: rgb(239, 242, 249);
+  border-radius: 20px;
+  box-shadow: 10px 4px 26px 4px rgba(87, 87, 87, 0.21);
+  -webkit-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  -moz-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  margin-top: 4.3%;
+}
+.github h1 {
+  padding-top: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: grey;
+  margin-left: 3.1%;
+}
+.github h2 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.8vmax;
+  font-weight: 600;
+  margin-top: -2%;
+  margin-right: 3%;
+  color: rgb(15, 56, 74);
+}
+.GithubProjects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2%;
+  padding-bottom: 25px;
+}
+.gitprojects {
+  position: relative;
+  width: 29vw;
+  height: 25vh;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 10px 4px 26px 4px rgba(87, 87, 87, 0.21);
+  -webkit-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  -moz-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  border: 0.1px solid rgb(228, 228, 228);
+}
+.gitprojects h1 {
+  font-size: 1vmax;
+  font-weight: 500;
+  color: rgb(168, 168, 168);
+  margin-left: 4%;
+  margin-top: 3%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.gitprojects h2 {
+  padding: 12px;
+  font-size: 1vmax;
+  font-weight: 100;
+  color: rgb(109, 109, 109);
+  margin-top: -2%;
+  margin-left: 5.5%;
+}
+.gitprojectsbottom {
+  position: absolute;
+  padding: 10px;
+  bottom: 20%;
+  height: 20%;
+  width: 100%;
+}
+.gitprojectsbottom h1 {
+  display: flex;
+  float: right;
+  font-size: 1vmax;
+  font-weight: 600;
+  color: rgb(168, 168, 168);
+  right: 15%;
+  padding-right: 10px;
+}
+
+.right {
+  width: 65%;
+}
+.MyProjects {
+  width: 97%;
+  background-color: rgb(239, 242, 249);
+  border-radius: 20px;
+  box-shadow: 10px 4px 26px 4px rgba(87, 87, 87, 0.21);
+  -webkit-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  -moz-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  margin-top: 4.3%;
+}
+.MyProjects h1 {
+  padding-top: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: grey;
+  margin-left: 3.1%;
+}
+
+.MyGithubProjects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2%;
+  padding-bottom: 25px;
+}
+.Mygitprojects {
+  width: 47%;
+  height: 25vh;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 10px 4px 26px 4px rgba(87, 87, 87, 0.21);
+  -webkit-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  -moz-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  border: 0.1px solid rgb(228, 228, 228);
+}
+.Mygitprojects h2 {
+  margin-left: 4%;
+  margin-top: 5%;
+  font-size: 1vmax;
+  color: rgb(0, 0, 0);
+}
+.projectimg {
+  width: 92%;
+  height: 90px;
+  margin-left: 4%;
+}
+.projectimg img {
+  padding: 10px;
+  width: 80%;
+  height: 100%;
+}
+.projectimg1 {
+  width: 92%;
+  height: 100px;
+  margin-left: 4%;
+}
+.projectimg1 img {
+  width: 80%;
+  height: 100%;
+}
+
+.resentPosts {
+  width: 97%;
+  background-color: rgb(239, 242, 249);
+  border-radius: 20px;
+  box-shadow: 10px 4px 26px 4px rgba(87, 87, 87, 0.21);
+  -webkit-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  -moz-box-shadow: 10px 4px 26px 4px rgba(129, 129, 129, 0.21);
+  margin-top: 4.3%;
+  padding-bottom: 25px;
+}
+.resentPosts h1 {
+  padding-top: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: grey;
+  margin-left: 3.1%;
+}
+.resentPosts1 {
+  width: 95.8%;
+  margin-top: 2%;
+  border-radius: 22px;
+  margin-left: 2%;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+.resentPosts1 a {
+}
+.resentPosts1 p {
+  padding: 0 18px;
+  padding-bottom: 14px;
+  font-size: 1vmax;
+  margin-left: 1%;
+  color: rgb(0, 0, 0);
+}
+.resentPosts1 h1 {
+  font-size: 0.9rem;
+  font-weight: 100;
+  color: rgb(0, 0, 0);
+  margin-left: 3%;
+  margin-top: 2%;
+}
+.resentPosts1left {
+  width: 14%;
+  margin-left: 5%;
+  overflow: hidden;
+}
+.resentPosts1left img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    display: flow-root;
+    width: 100%;
+  }
+  .left {
+    margin-top: 4%;
+    width: 100%;
+    padding: 0 16px;
+  }
+  .theme {
+    height: 11.3vh;
+    padding-bottom: 0px;
+  }
+  .themeLeft h2 {
+    margin-top: 0%;
+    padding-left: 34px;
+  }
+  .themeLeft{
+  }
+  .right {
+    width: 100%;
+    padding: 0 16px;
+  }
+  .switch {
+    width: 3.2em;
+    height: 1.6em;
+  }
+  .slider:before {
+    height: 1.1em;
+    width: 1.1em;
+    background: transparent;
+  }
+  .profilePhoto {
+    margin-top: 8%;
+    width: 30vw;
+    height: 30vw;
+  }
+  .profileBottom h1 {
+    font-size: 1.5rem;
+  }
+  .profileBottom p {
+    font-size: 0.7rem;
+  }
+  .aboutleft i {
+    font-size: 0.9rem;
+    margin-top: -2.5%;
+  }
+  .aboutleft h6 {
+    font-size: 1.5vmax;
+  }
+
+  .aboutright h6 {
+    font-size: 1.6vmax;
+    margin-right: 7.2%;
+  }
+  .topTech h1 {
+    font-size: 1rem;
+  }
+  .skills h1 {
+    font-size: 1.5vmax;
+  }
+  .experience h1 {
+    font-size: 1rem;
+  }
+  .experience1 h1 {
+    font-size: 1.5vmax;
+  }
+  .experience1 h2 {
+    font-size: 1.7vmax;
+  }
+  .experience1 h3 {
+    padding-right: 3px;
+    font-size: 1.5vmax;
+  }
+  .right {
+    width: 100%;
+    padding: 0px 18px;
+    padding-bottom: 20px;
+  }
+  .github {
+    width: 100%;
+    padding-bottom: 16px;
+  }
+  .github h1 {
+    font-size: 1rem;
+    margin-left: 6.1%;
+  }
+  .GithubProjects {
+    width: 100%;
+    display: initial;
+  }
+  .gitprojects {
+    width: 90%;
+    height: 25vh;
+    margin-left: 5%;
+    margin-right: 0%;
+    margin-top: 2.5%;
+  }
+  .MyProjects {
+    width: 100%;
+    padding-bottom: 16px;
+  }
+  .MyProjects h1 {
+    font-size: 1rem;
+    margin-left: 6.1%;
+  }
+  .MyGithubProjects {
+    width: 100%;
+    display: initial;
+  }
+  .Mygitprojects {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2.5%;
+  }
+  .resentPosts {
+    width: 100%;
+    padding-bottom: 16px;
+  }
+  .resentPosts h1 {
+    font-size: 1rem;
+    margin-left: 6.1%;
+  }
+  .resentPosts1 {
+    width: 90%;
+    height: 25vh;
+    margin-left: 5%;
+    margin-top: 2.5%;
+  }
+  .resentPosts1 p {
+    font-size: 1.3vmax;
+  }
+  .resentPosts1 h1 {
+    font-size: 1.7vmax;
+    font-weight: 600;
+  }
+  .resentPosts1left {
+    width: 22%;
+  }
+
+  .Mygitprojects h2 {
+    font-size: 1.8vmax;
+    margin-left: 8%;
+  }
+  .projectimg {
+    width: 100%;
+    height: 90px;
+    margin-left: 5%;
+  }
+  .projectimg1 {
+    width: 80%;
+  }
+  .projectimg1 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .gitprojects h2 {
+    font-size: 1.8vmax;
+    margin-left: 8%;
+    font-weight: 600;
+  }
+  .gitprojectsbottom h1 {
+    font-size: 1.8vmax;
+    margin-left: 8%;
+  }
+  .byLove {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vmax;
+    white-space: nowrap;
+    margin-left: 0%;
+    padding-bottom: 5%;
+  }
+  .github h2 a {
+    font-size: 1.5vmax;
+    margin-top: -6%;
+    margin-right: 3%;
+  }
+  .profileBottom p {
+    font-size: 1.5vmax;
+  }
+  .education h6 {
+    font-size: 1.2rem;
+  }
+}
